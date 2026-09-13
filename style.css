@@ -64,7 +64,9 @@ body {
     font-size: 1.3rem;
     font-weight: 700;
 }
-
+#skills, .conhecimentos {
+  padding-top: 80px; 
+}
 /* --- COMPONENTES --- */
 .badge {
     background: rgba(108, 92, 231, 0.15);
@@ -520,6 +522,12 @@ body {
     font-size: 0.85rem;
 }
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+  justify-content: center;
+}
 
 @media (max-width: 900px) {
     .skills-grid {
