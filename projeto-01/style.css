@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 39, 99);
+}
+
+.container {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgb(156, 161, 235);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.btnFrase{
+    padding: 20px;
+    background-color: rgb(82, 70, 112);
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btnFrase:hover{
+    background-color: rgb(190, 195, 255);
+}

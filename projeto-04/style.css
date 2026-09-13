@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.senha{ 
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px 0;
+
+}
+
+
+.digito {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+
+
+
+.certo{
+    background-color: rgb(71, 255, 47);
+}
+
+.erro{
+    background-color: rgb(255, 0, 0);
+
+}

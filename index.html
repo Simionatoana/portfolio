@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Yngrid A. M. Molina com projetos desenvolvidos em HTML, CSS e JavaScript.">
+    <title>Portfólio | A. M. Molina</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <div class="avatar-glow">AM</div>
+            <span>Molina</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Botão do WhatsApp -->
+        <button id="btn-whatsapp-nav" class="btn btn-primary btn-sm">
+            Contrate-me <i class="fa-brands fa-whatsapp"></i>
+        </button>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">DESENVOLVEDORA FRONT-END</span>
+            <h1>Olá, sou <span class="highlight">Molina</span></h1>
+            <h2><span id="typing-text"></span><span class="cursor"></span></h2>
+            <p>Criando soluções web e experiências digitais incríveis através de código limpo em HTML, CSS & JavaScript.</p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Ver Meus Trabalhos <i class="fa-solid fa-arrow-down"></i></a>
+                <button id="btn-whatsapp-hero" class="btn btn-outline">WhatsApp <i class="fa-brands fa-whatsapp"></i></button>
+            </div>
+
+            <!-- Ícones das Tecnologias -->
+            <div class="tech-stack">
+                <p>TECNOLOGIAS QUE UTILIZO</p>
+                <div class="tech-icons">
+                    <i class="fa-brands fa-html5" title="HTML"></i>
+                    <i class="fa-brands fa-css3-alt" title="CSS"></i>
+                    <i class="fa-brands fa-square-js" title="JavaScript"></i>
+                    <i class="fa-brands fa-github" title="GitHub"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <div class="profile-circle">
+                <img src="assets/1000636566.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <span class="section-subtitle">SOBRE MIM</span>
+            <h2>Construindo interfaces e aprendendo constantemente</h2>
+            <p>Sou desenvolvedora focada na criação de páginas web responsivas e modernas. Atualmente possuo 10 projetos práticos desenvolvidos explorando conceitos de HTML, CSS e JavaScript.</p>
+            <button id="btn-instagram-about" class="btn btn-outline">Meu Instagram <i class="fa-brands fa-instagram"></i></button>
+        </div>
+
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fa-solid fa-code"></i></div>
+                <div class="metric-info">
+                    <h3>10+</h3>
+                    <p>Projetos Criados</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <div class="metric-info">
+                    <h3>100%</h3>
+                    <p>Código Limpo</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <div class="metric-info">
+                    <h3>Web Dev</h3>
+                    <p>Foco Principal</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="metric-info">
+                    <h3>Evolução</h3>
+                    <p>Constante</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="skills" class="skills">
+        <span class="section-subtitle">MINHAS HABILIDADES</span>
+        <h2>Tecnologias & Conhecimentos</h2>
+        
+        <div class="skills-grid">
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-html5"></i> HTML (Estruturação )</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-css3-alt"></i> CSS (UI Designer)</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-square-js"></i> JavaScript (Interatividade)</span>
+                    <span>50%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-github"></i> GitHub</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-title-wrapper">
+            <div>
+                <span class="section-subtitle">PORTFÓLIO</span>
+                <h2>Meus Projetos</h2>
+            </div>
+            <span class="project-count-badge">10 projetos</span>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">01</span>
+                    <i class="fa-solid fa-quote-left folder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Frases do dia</h3>
+                    <p>Aplicação web focada na exibição estilizada de citações diárias.</p>
+                    <a href="./projeto-01/index.html" class="project-link">Acessar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">02</span>
+                    <i class="fa-solid fa-window-maximize folder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Modal</h3>
+                    <p>Interface com janela modal sobreposta e estilizada com CSS.</p>
+                    <a href="./projeto-02/index.html" class="project-link">Acessar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">03</span>
+                    <i class="fa-solid fa-chess-board folder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Tabuleiro</h3>
+                    <p>Construção de estrutura em grade no estilo tabuleiro com CSS Grid.</p>
+                    <a href="./projeto-03/index.html" class="project-link">Acessar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">04</span>
+                    <i class="fa-solid fa-key folder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Senha</h3>
+                    <p>Página de validação/geração de credenciais e formulário seguro.</p>
+                    <a href="./projeto-04/index.html" class="project-link">Acessar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">05</span>
+                    <i class="fa-solid fa-vector-square folder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Logo</h3>
+                    <p>Recriação e estilização de identidade visual puramente em CSS.</p>
+                    <a href="./projeto-05/index.html" class="project-link">Acessar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">06</span>
+                    <i class="fa-solid fa-screwdriver-wrench folder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Assistência Técnica</h3>
+                    <p>Landing page para prestação de serviços e suporte técnico.</p>
+                    <a href="./projeto-06/index.html" class="project-link">Acessar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">07</span>
+                    <i class="fa-solid fa-list-check folder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Lista</h3>
+                    <p>Interface dinâmica para organização de itens e tarefas.</p>
+                    <a href="./projeto-07/index.html" class="project-link">Acessar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">08</span>
+                    <i class="fa-solid fa-cart-shopping folder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Loja</h3>
+                    <p>Layout para e-commerce com catálogo de produtos e vitrine.</p>
+                    <a href="./projeto-08/index.html" class="project-link">Acessar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">09</span>
+                    <i class="fa-solid fa-microchip folder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Placas</h3>
+                    <p>Catálogo informativo e exibição de placas de hardware/sinalização.</p>
+                    <a href="./projeto-09/index.html" class="project-link">Acessar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-number">10</span>
+                    <i class="fa-regular fa-image folder-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Background Image</h3>
+                    <p>Exploração avançada de técnicas de fundo, overlays e posicionamento.</p>
+                    <a href="./projeto-10/index.html" class="project-link">Acessar Projeto <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contato -->
+    <footer id="contact" class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <span class="section-subtitle">VAMOS TRABALHAR JUNTOS</span>
+                <h2>Tem um projeto em mente?</h2>
+                <p>Estou aberta a novas oportunidades, colaborações e desafios na área de desenvolvimento web.</p>
+                <button id="btn-whatsapp-footer" class="btn btn-primary">Falar no WhatsApp <i class="fa-brands fa-whatsapp"></i></button>
+            </div>
+
+            <div class="footer-col">
+                <span class="section-subtitle">ME SIGA</span>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" id="link-instagram" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" id="link-whatsapp" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; Portfólio AM Molina. Todos os direitos reservados.</p>
+            <p>Feito com <i class="fa-solid fa-heart" style="color: #6c5ce7;"></i> e JS</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

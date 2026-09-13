@@ -1,0 +1,51 @@
+*{
+    padding:0 ;
+    margin: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btnEnviar{
+    color: white;
+    background-color: rgb(165, 110, 217);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 200;
+}
+
+.btnExcluir{
+    display: flex;
+    color: rgb(233, 94, 117);
+    background-color: palevioletred;
+    text-align: left;
+    width: 500px;
+
+}
+
+body{
+    background-color: palevioletred;
+}
+
+.lista{
+    background-color:  palevioletred
+}
+
+h1{
+    color: rgb(23, 23, 23);
+    margin: 20px;
+    font-size: 50px;
+
+}
+input{
+    background-color: pink;
+    padding: 2px;
+    font-size: medium;
+    margin: 11px;
+    gap: 20px;
+
+}
+
+header{
+    padding: 0;
+    margin:20px;
+    border-radius: 10px;
+}
+
